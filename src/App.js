@@ -29,12 +29,13 @@ const App = (props) => {
 
       <div className="container-main">
         <h1>Welcome to my page</h1>
-        {/* <div>{state.data.id}</div> */}
       </div>
       <div>{newData}</div>
 
       {/*<Summary className="summary_text-box" />*/}
-      <TagsElements />
+      <div className="tags">
+        <TagsElements />
+      </div>
       <MainGridElements className="main-grid-elements_cards" data={Data} />
     </Aux>
   );

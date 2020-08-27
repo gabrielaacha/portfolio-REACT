@@ -1,21 +1,24 @@
 .tags {
+  display: flex;
+  justify-content: center;
+
   &__all {
-    background-color: steelblue;
-    width: 70vw;
-    padding: 2rem;
-    margin: 2rem;
+    border: steelblue 1px solid;
+    width: 80vw;
+    padding: 2rem 0;
+    margin: 2rem 0;
     display: flex;
     flex-direction: row;
     text-align: center;
     justify-content: left;
   }
 
-  &__single-tag {
+  &__single {
     padding: 0.5rem;
+    margin-right: 0.5rem;
     border: 2px black solid;
     border-radius: 20px;
     box-shadow: black;
-    //   background-color: darkgray;
     width: 10rem;
   }
 }
