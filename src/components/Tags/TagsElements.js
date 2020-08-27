@@ -17,6 +17,12 @@ const tagsElements = (props) => (
       <div className="tags__single">
         <TagsElement />
       </div>
+      <div className="tags__single">
+        <TagsElement />
+      </div>
+      <div className="tags__single">
+        <TagsElement />
+      </div>
     </div>
   </Aux>
 );
