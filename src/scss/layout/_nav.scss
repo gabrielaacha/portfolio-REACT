@@ -1,0 +1,25 @@
+.nav-element {
+  &-menu {
+    &_all {
+      border: red 1px solid;
+      width: 40rem;
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &_single-items {
+      background-color: blue;
+      margin: 1rem;
+    }
+  }
+
+  &-title {
+    border: blue 1px solid;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    // align-items: center;
+  }
+}

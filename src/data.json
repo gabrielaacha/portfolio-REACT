@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "projectName": "project1",
+    "icon": "",
+    "image": "../public/img/app-img-1.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+  },
+
+  {
+    "id": 1,
+    "projectName": "project2",
+    "icon": "",
+    "image": "../public/img/app-img-2.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+  },
+
+  {
+    "id": 2,
+    "projectName": "project3",
+    "icon": "",
+    "image": "../public/img/app-img-3.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+  },
+
+  {
+    "id": 3,
+    "projectName": "project4",
+    "icon": "",
+    "image": "../public/img/app-img-4.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+  },
+
+  {
+    "id": 4,
+    "projectName": "project5",
+    "icon": "",
+    "image": "../public/img/app-img-5.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+  }
+]
