@@ -1,7 +1,14 @@
 import React from "react";
+import Aux from "../../../hoc/Aux";
 
 const mainGridElementCard = (props) => {
-  return <div className="main-grid_single-tag">MAIN GRID ELEMENT CARD</div>;
+  return (
+    <Aux>
+      {" "}
+      <div className="main-grid__col-1-of-3__upper">upper</div>
+      <div className="main-grid__col-1-of-3__lower">lower</div>
+    </Aux>
+  );
 };
 
 export default mainGridElementCard;

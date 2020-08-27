@@ -4,17 +4,17 @@ import Aux from "../../hoc/Aux";
 
 const tagsElements = (props) => (
   <Aux>
-    <div className="main-grid-all-tags">
-      <div className="tags-element-single-tag">
+    <div className="tags__all">
+      <div className="tags__single-tag">
         <TagsElement />
       </div>
-      <div className="tags-element-single-tag">
+      <div className="tags__single-tag">
         <TagsElement />
       </div>
-      <div className="tags-element-single-tag">
+      <div className="tags__single-tag">
         <TagsElement />
       </div>
-      <div className="tags-element-single-tag">
+      <div className="tags__single-tag">
         <TagsElement />
       </div>
     </div>

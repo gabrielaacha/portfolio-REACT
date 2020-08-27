@@ -1,7 +1,7 @@
 import React from "react";
 
 const NavigationElementMenuItem = (props) => {
-  return <li className="nav-element-menu_single-items">HELLO</li>;
+  return <li className="nav-element__menu__single-items">HELLO</li>;
 };
 
 export default NavigationElementMenuItem;

@@ -3,7 +3,7 @@ import NavigationElementMenuItem from "./NavigationElementMenuItems/NavigationEl
 
 const NavigationElementMenu = (props) => {
   return (
-    <ul className="nav-element-menu_all">
+    <ul className="nav-element__menu__all">
       <NavigationElementMenuItem />
       <NavigationElementMenuItem />
       <NavigationElementMenuItem />

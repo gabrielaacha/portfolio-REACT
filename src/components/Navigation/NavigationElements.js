@@ -6,7 +6,7 @@ import Aux from "../../hoc/Aux";
 const navigationElements = (props) => {
   return (
     <Aux>
-      <div className="nav-elements_all">
+      <div className="nav-elements__all">
         <NavigationElementTitle />
         <NavigationElementMenu />
       </div>

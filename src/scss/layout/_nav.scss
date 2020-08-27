@@ -1,6 +1,6 @@
 .nav-element {
-  &-menu {
-    &_all {
+  &__menu {
+    &__all {
       border: red 1px solid;
       width: 40rem;
       list-style-type: none;
@@ -9,17 +9,16 @@
       justify-content: space-between;
     }
 
-    &_single-items {
-      background-color: blue;
+    &__single-items {
       margin: 1rem;
     }
   }
 
-  &-title {
+  &__title {
     border: blue 1px solid;
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    // align-items: center;
+    // flex-direction: column;
+    // text-align: center;
+    align-items: center;
   }
 }

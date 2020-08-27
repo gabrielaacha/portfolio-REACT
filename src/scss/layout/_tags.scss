@@ -1,7 +1,21 @@
-.main-grid-all-tags {
-  padding: 5rem;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  justify-content: space-around;
+.tags {
+  &__all {
+    background-color: steelblue;
+    width: 70vw;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: left;
+  }
+
+  &__single-tag {
+    padding: 0.5rem;
+    border: 2px black solid;
+    border-radius: 20px;
+    box-shadow: black;
+    //   background-color: darkgray;
+    width: 10rem;
+  }
 }
