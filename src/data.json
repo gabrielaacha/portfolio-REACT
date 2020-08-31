@@ -37,5 +37,13 @@
     "icon": "",
     "image": "./img/app-image-4.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+  },
+
+  {
+    "id": 5,
+    "projectName": "project5",
+    "icon": "",
+    "image": "./img/app-image-5.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
   }
 ]
