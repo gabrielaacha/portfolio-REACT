@@ -20,5 +20,8 @@
     border-radius: 20px;
     box-shadow: black;
     width: 10rem;
+    &:hover {
+      box-shadow: 4px 4px 4px 1px rgba(73, 7, 255, 0.5);
+    }
   }
 }
