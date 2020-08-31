@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import Data from "./data.json";
 import MainGridElements from "./components/Main/MainGridElements";
 import Summary from "./components/Summary/Summary";
@@ -6,36 +6,53 @@ import TagsElements from "./components/Tags/TagsElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
 import Aux from "./hoc/Aux";
 
-const App = (props) => {
-  const [data, setData] = useState([{ data: Data }, { filteredData: [] }]);
-  //   const [userText, setUserText] = useState("write something here")
-  const [count, setCount] = useState(0);
+export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: Data,
+      filteredData: [],
+    };
+  }
 
-  const newData = () => {
-    console.log("test");
-    let newArr = data.map((item) => {
-      item = data.id;
-      newArr.push(item);
+  filteredDataHandler = () => {
+    let filteredArr = [];
+    const newArr = this.state.data.map((item) =>
+      item.projectName ? console.log(item) : null
+    );
+    filteredArr.push(newArr);
+    this.setState({
+      filteredData: filteredArr,
     });
   };
 
-  return (
-    <Aux>
-      <NavigationElements />
-      <div>
-        <p>You clicked {count} times</p>
-        <button onClick={() => setCount(count + 1)}>Click me</button>
-      </div>
-      <div className="summary">
-        <Summary />
-      </div>
+  imageHandler = () => {
+    let imageSel = [];
+    const imageCards = this.state.data.map((item) => {
+      return { item };
+    });
+    imageSel.push(imageCards);
+  };
 
-      <div className="tags">
-        <TagsElements />
-      </div>
-      <MainGridElements className="main-grid-elements_cards" data={Data} />
-    </Aux>
-  );
-};
-
-export default App;
+  render() {
+    console.log(this.state.data, "filtered", this.state.filteredData);
+    console.log(this.imageHandler.item);
+    return (
+      <Aux>
+        <NavigationElements />
+        <div className="summary">
+          <Summary />
+        </div>
+        <div className="tags">
+          <TagsElements />
+        </div>
+        <MainGridElements
+          className="main-grid-elements_cards"
+          data={this.state.data}
+          filteredData={this.filteredDataHandler}
+          cardUp={this.imageHandler}
+        />
+      </Aux>
+    );
+  }
+}

@@ -1,41 +1,41 @@
 [
   {
     "id": 0,
-    "projectName": "project1",
+    "projectName": "project0",
     "icon": "",
-    "image": "../public/img/app-img-1.jpg",
+    "image": "./img/app-image-0.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
   },
 
   {
     "id": 1,
-    "projectName": "project2",
+    "projectName": "project1",
     "icon": "",
-    "image": "../public/img/app-img-2.jpg",
+    "image": "./img/app-image-1.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
   },
 
   {
     "id": 2,
-    "projectName": "project3",
+    "projectName": "project2",
     "icon": "",
-    "image": "../public/img/app-img-3.jpg",
+    "image": "./img/app-image-2.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
   },
 
   {
     "id": 3,
-    "projectName": "project4",
+    "projectName": "project3",
     "icon": "",
-    "image": "../public/img/app-img-4.jpg",
+    "image": "./img/app-image-3.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
   },
 
   {
     "id": 4,
-    "projectName": "project5",
+    "projectName": "project4",
     "icon": "",
-    "image": "../public/img/app-img-5.jpg",
+    "image": "./img/app-image-4.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
   }
 ]

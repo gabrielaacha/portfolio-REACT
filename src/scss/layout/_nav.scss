@@ -10,15 +10,16 @@
     }
 
     &__single-items {
-      margin: 1rem;
+      margin: 0 0.1rem;
+      background-color: pink;
     }
   }
 
   &__title {
     border: blue 1px solid;
     display: flex;
-    // flex-direction: column;
-    // text-align: center;
+    flex-direction: column;
+    text-align: center;
     align-items: center;
   }
 }

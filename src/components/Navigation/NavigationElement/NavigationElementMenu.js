@@ -3,12 +3,25 @@ import NavigationElementMenuItem from "./NavigationElementMenuItems/NavigationEl
 
 const NavigationElementMenu = (props) => {
   return (
-    <ul className="nav-element__menu__all">
-      <NavigationElementMenuItem />
-      <NavigationElementMenuItem />
-      <NavigationElementMenuItem />
-      <NavigationElementMenuItem />
-    </ul>
+    <div className="">
+      {" "}
+      <input type="checkbox" className="toggler" />
+      <div className="hamburger">
+        <div></div>
+      </div>
+      <div className="menu">
+        <div>
+          <div>
+            <ul className="nav-element__menu__all">
+              <NavigationElementMenuItem />
+              <NavigationElementMenuItem />
+              <NavigationElementMenuItem />
+              <NavigationElementMenuItem />
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 };
 
