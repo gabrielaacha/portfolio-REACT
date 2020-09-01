@@ -4,11 +4,13 @@ import NavigationElementTitle from "./NavigationElement/NavigationElementTitle";
 import Aux from "../../hoc/Aux";
 
 const navigationElements = (props) => {
+  console.log(props.data);
+
   return (
     <Aux>
       <div className="nav-elements__all">
         <NavigationElementTitle />
-        <NavigationElementMenu />
+        <NavigationElementMenu data={props.data} />
       </div>
     </Aux>
   );

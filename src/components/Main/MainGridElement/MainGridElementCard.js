@@ -1,6 +1,5 @@
 import React from "react";
 import Aux from "../../../hoc/Aux";
-// import Data from "../../../data.json";
 
 const mainGridElementCard = (props) => {
   console.log(props.info);

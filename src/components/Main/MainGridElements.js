@@ -3,8 +3,6 @@ import MainGridElementCard from "./MainGridElement/MainGridElementCard";
 import Aux from "../../hoc/Aux";
 
 const mainGridElements = (props) => {
-  // let cards = props.filteredData;
-
   const items = props.data.map((item, i) => {
     return <MainGridElementCard key={i} info={item} />;
   });
@@ -16,20 +14,7 @@ const mainGridElements = (props) => {
           <div className="main-grid__row">
             <div className="main-grid__col-1-of-3">{items}</div>
           </div>
-          {/* <div className="main-grid__col-1-of-3">{items}</div> */}
         </div>
-
-        {/* <div className="main-grid__row">
-            <div className="main-grid__col-1-of-3">{items}</div>
-            <div className="main-grid__col-1-of-3">{items}</div>
-            <div className="main-grid__col-1-of-3">{items}</div>
-          </div>
-
-          <div className="main-grid__row">
-            <div className="main-grid__col-1-of-3">{items}</div>
-            <div className="main-grid__col-1-of-3">{items}</div>
-            <div className="main-grid__col-1-of-3">{items}</div> */}
-        {/* </div> */}
       </div>
     </Aux>
   );

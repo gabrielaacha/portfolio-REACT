@@ -1,0 +1,21 @@
+[
+  {
+    "id": 0,
+    "title": "ABOUT"
+  },
+
+  {
+    "id": 1,
+    "title": "PROJECTS"
+  },
+
+  {
+    "id": 2,
+    "title": "TAGS"
+  },
+
+  {
+    "id": 3,
+    "title": "CONTACT"
+  }
+]

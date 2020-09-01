@@ -4,6 +4,7 @@ import MainGridElements from "./components/Main/MainGridElements";
 import Summary from "./components/Summary/Summary";
 import TagsElements from "./components/Tags/TagsElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
+import Menu from "./menu.json";
 import Aux from "./hoc/Aux";
 
 export default class App extends Component {
@@ -11,6 +12,7 @@ export default class App extends Component {
     super(props);
     this.state = {
       data: Data,
+      dataMenu: Menu,
       filteredData: [],
     };
   }
@@ -36,10 +38,11 @@ export default class App extends Component {
 
   render() {
     console.log(this.state.data, "filtered", this.state.filteredData);
-    console.log(this.imageHandler.item);
+    console.log(this.state.dataMenu);
+
     return (
       <Aux>
-        <NavigationElements />
+        <NavigationElements data={this.state.dataMenu} />
         <div className="summary">
           <Summary />
         </div>
