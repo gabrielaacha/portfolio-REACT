@@ -1,0 +1,38 @@
+// ---------navigation-------------
+
+.nav-element {
+  &__menu {
+    &__all {
+    }
+
+    &__single-items {
+      font-size: 1.5rem;
+    }
+  }
+
+  &__title {
+    font-size: 3rem;
+  }
+}
+
+// ---------grid-------------
+
+.main-grid {
+  &__all {
+    font-size: 2rem;
+  }
+
+  &__row {
+  }
+
+  &__col-1-of-3 {
+    &__items {
+    }
+  }
+
+  &__upper {
+  }
+
+  &__lower {
+  }
+}

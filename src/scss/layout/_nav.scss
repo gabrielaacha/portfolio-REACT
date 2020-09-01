@@ -10,7 +10,7 @@
     }
 
     &__single-items {
-      margin: 0 0.1rem;
+      margin: 0;
       background-color: pink;
     }
   }
@@ -19,7 +19,6 @@
     border: blue 1px solid;
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
   }
 }
