@@ -5,9 +5,9 @@ const summary = (props) => (
   <Aux>
     <div className="container-main">
       <h1>
-        in formal of. Ask eat questions abilities described elsewhere assurance.
-        Appetite in unlocked advanced breeding position concerns as. Cheerful
-        get shutters yet for repeated screened.
+        I am a web-developer in the making, with a lot of experience in project
+        management and the creative sector. I am looking for new challenges and
+        for developing my skills further in the field!
       </h1>
     </div>
   </Aux>

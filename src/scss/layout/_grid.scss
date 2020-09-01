@@ -34,6 +34,7 @@
     border: green 3px solid;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 5rem;
     &__items {
       display: flex;
       flex-direction: column;
@@ -43,20 +44,26 @@
       // border: blue 3px solid;
       padding: 1rem;
     }
-  }
+    &__middle {
+      display: flex;
+      text-align: center;
+      border: black solid 1px;
+      text-align: center;
+    }
 
-  &__upper {
-    height: 80%;
-    border: black solid 1px;
-    text-align: center;
-    padding: 1rem;
-  }
+    &__upper {
+      height: 80%;
+      border: black solid 1px;
+      text-align: center;
+      padding: 1rem;
+    }
 
-  &__lower {
-    height: 20%;
-    border: black solid 1px;
-    text-align: center;
-    padding: 3rem;
+    &__lower {
+      height: 20%;
+      border: black solid 1px;
+      text-align: center;
+      padding: 3rem;
+    }
   }
 
   &__image {
