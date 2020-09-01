@@ -22,7 +22,10 @@
     box-shadow: black;
     width: 10rem;
     &:hover {
-      box-shadow: 4px 4px 4px 1px rgba(73, 7, 255, 0.5);
+      box-shadow: 6px 6px 6px 5px rgba(73, 7, 255, 0.5);
+      transform: translateY(7px);
+      // transform: rotate(-20deg);
+      cursor: pointer;
     }
   }
 }
