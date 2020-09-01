@@ -5,6 +5,7 @@ import Summary from "./components/Summary/Summary";
 import TagsElements from "./components/Tags/TagsElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
 import Menu from "./menu.json";
+import Tags from "./tags.json";
 import Aux from "./hoc/Aux";
 
 export default class App extends Component {
@@ -13,6 +14,7 @@ export default class App extends Component {
     this.state = {
       data: Data,
       dataMenu: Menu,
+      dataTags: Tags,
       filteredData: [],
     };
   }
@@ -47,7 +49,7 @@ export default class App extends Component {
           <Summary />
         </div>
         <div className="tags">
-          <TagsElements />
+          <TagsElements data={this.state.dataTags} />
         </div>
         <MainGridElements
           className="main-grid-elements_cards"

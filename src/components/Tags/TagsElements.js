@@ -3,28 +3,13 @@ import TagsElement from "./TagsElement/TagsElement";
 import Aux from "../../hoc/Aux";
 
 const tagsElements = (props) => {
+  const itemsTags = props.data.map((itemTags, i) => {
+    return <TagsElement key={i} info={itemTags} />;
+  });
+
   return (
     <Aux>
-      <div className="tags__all">
-        <div className="tags__single">
-          <TagsElement />
-        </div>
-        <div className="tags__single">
-          <TagsElement />
-        </div>{" "}
-        <div className="tags__single">
-          <TagsElement />
-        </div>{" "}
-        <div className="tags__single">
-          <TagsElement />
-        </div>{" "}
-        <div className="tags__single">
-          <TagsElement />
-        </div>
-        <div className="tags__single">
-          <TagsElement />
-        </div>
-      </div>
+      <div className="tags__all">{itemsTags}</div>
     </Aux>
   );
 };

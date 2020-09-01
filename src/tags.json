@@ -1,0 +1,36 @@
+[
+  {
+    "id": 0,
+    "title": "REACT"
+  },
+
+  {
+    "id": 1,
+    "title": "JAVA SCRIPT"
+  },
+
+  {
+    "id": 2,
+    "title": "HTML"
+  },
+
+  {
+    "id": 3,
+    "title": "CSS+SASS"
+  },
+
+  {
+    "id": 4,
+    "title": "EXPRESS"
+  },
+
+  {
+    "id": 5,
+    "title": "MONGODB"
+  },
+
+  {
+    "id": 6,
+    "title": "BOOTSTRAP"
+  }
+]
