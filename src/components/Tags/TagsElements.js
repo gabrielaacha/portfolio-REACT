@@ -8,10 +8,20 @@ const tagsElements = (props) => {
       <div className="tags__all">
         <div className="tags__single">
           <TagsElement />
+        </div>
+        <div className="tags__single">
           <TagsElement />
+        </div>{" "}
+        <div className="tags__single">
           <TagsElement />
+        </div>{" "}
+        <div className="tags__single">
           <TagsElement />
+        </div>{" "}
+        <div className="tags__single">
           <TagsElement />
+        </div>
+        <div className="tags__single">
           <TagsElement />
         </div>
       </div>
