@@ -1,3 +1,11 @@
+body {
+  font-family: "Lato", sans-serif;
+  //   font-weight: 400;
+  /* font-size: 16px; */
+  //   line-height: 1.7;
+  padding: 3rem;
+}
+
 // ---------navigation-------------
 
 .nav-element {
@@ -12,7 +20,7 @@
   }
 }
 
-// ---------grid-------------
+// ---------navigation-------------
 
 .main-grid {
   &__all {
@@ -28,6 +36,11 @@
     &__middle {
       font-size: 3rem;
       font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    &__tags {
+      font-size: 1.5rem;
     }
   }
 
@@ -36,4 +49,10 @@
 
   //   &__lower {
   //   }
+}
+
+// ---------summary-------------
+
+.summary {
+  font-weight: lighter;
 }

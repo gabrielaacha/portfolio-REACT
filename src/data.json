@@ -4,7 +4,8 @@
     "projectName": "project0",
     "icon": "",
     "image": "./img/app-image-0.jpg",
-    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
   },
 
   {
@@ -12,7 +13,8 @@
     "projectName": "project1",
     "icon": "",
     "image": "./img/app-image-1.jpg",
-    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
   },
 
   {
@@ -20,7 +22,8 @@
     "projectName": "project2",
     "icon": "",
     "image": "./img/app-image-2.jpg",
-    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
   },
 
   {
@@ -28,7 +31,8 @@
     "projectName": "project3",
     "icon": "",
     "image": "./img/app-image-3.jpg",
-    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
   },
 
   {
@@ -36,7 +40,8 @@
     "projectName": "project4",
     "icon": "",
     "image": "./img/app-image-4.jpg",
-    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
   },
 
   {
@@ -44,6 +49,7 @@
     "projectName": "project5",
     "icon": "",
     "image": "./img/app-image-5.jpg",
-    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of "
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
   }
 ]

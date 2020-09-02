@@ -3,7 +3,7 @@ import Aux from "../../../hoc/Aux";
 
 const mainGridElementCard = (props) => {
   console.log(props.info);
-  const { image, shortDescription, projectName } = props.info;
+  const { image, shortDescription, projectName, tags } = props.info;
 
   return (
     <Aux>
@@ -13,6 +13,7 @@ const mainGridElementCard = (props) => {
         </div>
         <div className="main-grid__col-1-of-3__middle">{projectName}</div>
         <div className="main-grid__col-1-of-3__lower">{shortDescription}</div>
+        <div className="main-grid__col-1-of-3__tags">{tags}</div>
       </div>
     </Aux>
   );
