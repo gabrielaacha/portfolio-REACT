@@ -19,24 +19,24 @@ export default class App extends Component {
     };
   }
 
-  filteredDataHandler = () => {
-    let filteredArr = [];
-    const newArr = this.state.data.map((item) =>
-      item.projectName ? console.log(item) : null
-    );
-    filteredArr.push(newArr);
-    this.setState({
-      filteredData: filteredArr,
-    });
-  };
+  // filteredDataHandler = () => {
+  //   let filteredArr = [];
+  //   const newArr = this.state.data.map((item) =>
+  //     item.projectName ? console.log(item) : null
+  //   );
+  //   filteredArr.push(newArr);
+  //   this.setState({
+  //     filteredData: filteredArr,
+  //   });
+  // };
 
-  imageHandler = () => {
-    let imageSel = [];
-    const imageCards = this.state.data.map((item) => {
-      return { item };
-    });
-    imageSel.push(imageCards);
-  };
+  // imageHandler = () => {
+  //   let imageSel = [];
+  //   const imageCards = this.state.data.map((item) => {
+  //     return { item };
+  //   });
+  //   imageSel.push(imageCards);
+  // };
 
   render() {
     console.log(this.state.data, "filtered", this.state.filteredData);
@@ -54,8 +54,8 @@ export default class App extends Component {
         <MainGridElements
           className="main-grid-elements_cards"
           data={this.state.data}
-          filteredData={this.filteredDataHandler}
-          cardUp={this.imageHandler}
+          // filteredData={this.filteredDataHandler}
+          // cardUp={this.imageHandler}
         />
       </Aux>
     );
