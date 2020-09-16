@@ -11,6 +11,7 @@ const mainGridElementCard = (props) => {
         <div className="main-grid__col-1-of-3__upper">
           <img alt={projectName} src={image} className="main-grid__image" />
         </div>
+
         <div className="main-grid__col-1-of-3__middle">{projectName}</div>
         <div className="main-grid__col-1-of-3__lower">{shortDescription}</div>
         <div className="main-grid__col-1-of-3__tags">{tags}</div>
