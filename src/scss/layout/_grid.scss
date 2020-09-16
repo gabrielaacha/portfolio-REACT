@@ -52,11 +52,13 @@
       border: black solid 1px;
       text-align: center;
       padding: 1rem;
+      font-size: 2rem;
     }
 
     &__upper {
       // height: 80%;
       border: black solid 1px;
+
       text-align: center;
       padding: 1rem;
     }
@@ -64,8 +66,10 @@
     &__lower {
       height: 20%;
       border: black solid 1px;
-      text-align: center;
+      font-size: 1.5rem;
+      text-align: left;
       padding: 1rem;
+      font-weight: 300;
     }
 
     &__tags {
@@ -73,14 +77,14 @@
       border: black solid 1px;
       display: flex;
       flex-wrap: wrap;
-      text-align: center;
+      text-align: left;
       padding: 2rem;
     }
   }
 
   &__image {
     width: 40rem;
-    border: black solid 1px;
+    // border: black solid 1px;
     border-radius: 10px;
     // height: 30rem;
     margin: 2rem;
@@ -100,3 +104,5 @@
 [class^="main-grid__col-"]:not(:last-child) {
   // margin-right: 6rem;
 }
+
+//-------------------responsive--grid-------------------------------

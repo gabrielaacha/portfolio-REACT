@@ -16,11 +16,11 @@ body {
   }
 
   &__title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
-// ---------navigation-------------
+// ---------main grid-------------
 
 .main-grid {
   &__all {
@@ -53,6 +53,12 @@ body {
 
 // ---------summary-------------
 
-.summary {
+.container-main {
   font-weight: lighter;
+  font-size: 15rem;
+  // background-color: rebeccapurple;
+
+  & p {
+    font-size: 4rem;
+  }
 }
