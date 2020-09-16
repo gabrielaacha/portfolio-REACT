@@ -9,14 +9,12 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    // justify-content: center;
   }
 
   &__row {
     max-width: 114rem;
     margin: 0 auto;
     display: flex;
-    // flex-direction: column;
 
     &:not(:last-child) {
       margin-bottom: 1rem;
@@ -34,7 +32,6 @@
 
     border: green 3px solid;
     display: flex;
-    // flex-direction: column;
     flex-wrap: wrap;
     padding-bottom: 5rem;
     &__items {
@@ -47,33 +44,36 @@
       padding: 1rem;
     }
     &__middle {
+      width: 40rem;
       display: flex;
       text-align: center;
-      border: black solid 1px;
-      text-align: center;
-      padding: 1rem;
+      // border: black solid 1px;
+      text-align: left;
+      padding: 1rem 1rem 0.5rem 1rem;
       font-size: 2rem;
+      font-weight: 300;
     }
 
     &__upper {
       // height: 80%;
-      border: black solid 1px;
-
+      // border: black solid 1px;
       text-align: center;
-      padding: 1rem;
+      padding: 1rem 1rem 1.5rem 1rem;
     }
 
     &__lower {
       height: 20%;
-      border: black solid 1px;
+      width: 40rem;
+      // border: black solid 1px;
       font-size: 1.5rem;
       text-align: left;
-      padding: 1rem;
+      padding: 0rem;
       font-weight: 300;
     }
 
     &__tags {
       height: 20%;
+      width: 40rem;
       border: black solid 1px;
       display: flex;
       flex-wrap: wrap;
@@ -85,9 +85,8 @@
   &__image {
     width: 40rem;
     // border: black solid 1px;
-    border-radius: 10px;
-    // height: 30rem;
-    margin: 2rem;
+    border-radius: 0px;
+    margin: 0rem;
     display: flex;
     &:hover {
       box-shadow: 10px 10px 10px 1px rgba(73, 7, 255, 0.5);
