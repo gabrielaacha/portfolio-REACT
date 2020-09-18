@@ -20,9 +20,9 @@ const NavigationElementMenu = (props) => {
           <span className="nav-icon"></span>
         </label>
 
-        <div className="menu">
+        <div className="">
           <Router>
-            <ul className="nav-element__menu__all">{menuItems}</ul>
+            <ul className="nav-element__menu__all menu">{menuItems}</ul>
           </Router>
         </div>
       </div>
