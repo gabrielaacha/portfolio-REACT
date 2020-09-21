@@ -47,11 +47,11 @@
 
 // menu
 
-.header .nav-element__container .menu {
-  clear: both;
-  max-height: 0;
-  transition: max-height 0.2s ease-out;
-}
+// .header .nav-element__container .menu {
+//   clear: both;
+//   max-height: 0;
+//   transition: max-height 0.2s ease-out;
+// }
 
 // menu icon
 
@@ -139,6 +139,12 @@
     background-color: grey;
   }
 
+  .header .nav-element__container .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+
   .header .menu-icon {
     display: flex;
     background-color: green;
@@ -147,13 +153,6 @@
   .nav-elements__all {
     width: 100vw;
     display: block;
-    // background-color: greenyellow;
-  }
-
-  .nav-element__container {
-    // display: flex;
-    // justify-content: center;
-    // background-color: rgb(107, 127, 175);
   }
 
   // header ul
@@ -186,10 +185,7 @@
 
     &:hover {
       background-color: white;
-      // box-shadow: 1px 6px 6px 1px rgba(0, 0, 0, 0.5);
       border-bottom: 2px black solid;
-      // transform: translateY(7px);
-      // transform: rotate(-20deg);
       cursor: pointer;
     }
   }
