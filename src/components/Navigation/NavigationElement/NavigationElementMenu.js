@@ -22,8 +22,8 @@ const NavigationElementMenu = ({ data }) => {
         </label>
 
         {/* ------------routing-------------------- */}
-        <div className="nav-element__container">
-          <Router>
+        <Router>
+          <div className="nav-element__container">
             <ul className="nav-element__menu__all menu">
               <li className="nav-element__menu__single-items">
                 <Link to="/About">About</Link>
@@ -41,12 +41,12 @@ const NavigationElementMenu = ({ data }) => {
 
             <Switch>
               <Route path="/About" component={About} />
-              <Route path="/Projects" component={Projects}></Route>
-              <Route path="/Tags" component={Tags}></Route>
-              <Route path="/Contact" component={Contact}></Route>
+              <Route path="/Projects" component={Projects} />
+              <Route path="/Tags" component={Tags} />
+              <Route path="/Contact" component={Contact} />
             </Switch>
-          </Router>
-        </div>
+          </div>
+        </Router>
       </div>
     </Aux>
   );
