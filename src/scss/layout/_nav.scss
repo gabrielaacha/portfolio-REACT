@@ -8,7 +8,7 @@
 .nav-element {
   &__menu {
     &__all {
-      border: red 1px solid;
+      // border: red 1px solid;
       width: 40rem;
       list-style-type: none;
       list-style: none;
@@ -48,7 +48,7 @@
 // menu icon
 
 .header .menu-icon {
-  border: 1px solid red;
+  // border: 1px solid red;
   padding: 23px 15px;
   position: relative; // parent container position
   user-select: none;
@@ -109,8 +109,13 @@
 
 //--------------responsive--nav-----------------
 
-// @media (min-width: 48em) {
 @media (min-width: 600px) {
+  .nav-elements__all {
+    display: flex;
+    // align-items: center;
+    // text-align: center;
+    // background-color: indianred;
+  }
   .nav-element__single-items {
     float: left;
   }
@@ -139,7 +144,6 @@
 
   .header .menu-icon {
     display: flex;
-    background-color: green;
   }
 
   .nav-elements__all {
@@ -147,7 +151,6 @@
     display: block;
   }
 
-  // header ul
   .menu {
     width: 100%;
     overflow: hidden;
@@ -158,7 +161,6 @@
     text-decoration: none;
   }
 
-  // header li a
   .nav-element__menu__single-items {
     background-color: white;
     width: 100%;
