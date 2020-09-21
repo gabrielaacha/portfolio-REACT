@@ -7,8 +7,8 @@ import Contact from "../../Pages/Contact";
 import Projects from "../../Pages/Projects";
 import Tags from "../../Pages/Tags";
 
-const NavigationElementMenu = (props) => {
-  const menuItems = props.data.map((menuItem, i) => {
+const NavigationElementMenu = ({ data }) => {
+  const menuItems = data.map((menuItem, i) => {
     return <NavigationElementMenuItem key={i} info={menuItem} />;
   });
 
@@ -20,7 +20,7 @@ const NavigationElementMenu = (props) => {
           <span className="nav-icon"></span>
         </label>
 
-        <div className="">
+        <div className="nav-element__container">
           <Router>
             <ul className="nav-element__menu__all menu">{menuItems}</ul>
           </Router>
