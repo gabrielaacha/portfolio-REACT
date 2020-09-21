@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(233, 230, 230);
+}
 .container-main {
   width: 90vw;
   margin: 2rem;
@@ -5,8 +8,6 @@
   border: blue 1px solid;
   display: flex;
   justify-content: center;
-  // align-items: flex-end;
-  // border-radius: 20px;
   border-color: black 1px solid;
   font-size: 2rem;
   text-align: left;

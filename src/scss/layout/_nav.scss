@@ -11,6 +11,7 @@
       border: red 1px solid;
       width: 40rem;
       list-style-type: none;
+      list-style: none;
       overflow: hidden;
       display: flex;
       flex-direction: row;
@@ -23,35 +24,26 @@
       margin-right: 0.5rem;
       display: flex;
       justify-content: center;
+      text-decoration: none;
+      list-style: none;
       // border: 2px black solid;
       // border-radius: 20px;
       width: 10rem;
       &:hover {
         box-shadow: 1px 6px 6px 1px rgba(0, 0, 0, 0.5);
         transform: translateY(7px);
-        // transform: rotate(-20deg);
         cursor: pointer;
       }
     }
   }
   &__title {
     border: blue 3px solid;
-    // background-color: yellow;
     display: flex;
-    // flex-direction: column;
     align-items: center;
   }
 }
 
-//--------------responsive--nav-styling----------------
-
-// menu
-
-// .header .nav-element__container .menu {
-//   clear: both;
-//   max-height: 0;
-//   transition: max-height 0.2s ease-out;
-// }
+//--------------resp--nav-styling----------------
 
 // menu icon
 
@@ -80,18 +72,18 @@
   height: 100%;
   width: 100%;
   position: absolute;
-  transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; // for the animation
 }
 
 .header .menu-icon .nav-icon:before {
-  top: 7px;
+  top: 7px; // icon positioning one barre
 }
 
 .header .menu-icon .nav-icon:after {
-  top: -8px;
+  top: -8px; // icon positioning one barre
 }
 
-// menu btn
+//-----------------menu btn-styling-----------------------------------------
 
 .header .menu-btn {
   display: none;
@@ -157,14 +149,10 @@
 
   // header ul
   .menu {
-    // background-color: indianred;
-    // border: rgb(0, 0, 0) 1px solid;
     width: 100%;
-    // list-style: none;
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    // justify-content: center;
     align-items: flex-end;
     padding: 0rem 1rem;
     text-decoration: none;
@@ -174,13 +162,9 @@
   .nav-element__menu__single-items {
     background-color: white;
     width: 100%;
-    // list-style: none;
     text-decoration: none;
     margin: 2px;
     padding: 2rem 0rem;
-    // margin-right: 0.5rem;
-    // display: flex;
-    // justify-content: center;
     display: block;
 
     &:hover {
@@ -193,8 +177,5 @@
   .nav-element__title {
     float: left;
     border: blue 3px solid;
-    // display: flex;
-    // border-bottom: red;
-    // align-items: center;
   }
 }
