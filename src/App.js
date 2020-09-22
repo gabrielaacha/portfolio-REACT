@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import Data from "./data.json";
+//------------components------------------------------
 import MainGridElements from "./components/Main/MainGridElements";
 import Summary from "./components/Summary/Summary";
 import TagsElements from "./components/Tags/TagsElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
-import Menu from "./menu.json";
-import Tags from "./tags.json";
+//---------------routing---------------------------------
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+//------------data------------------------------
+import Menu from "./data/menu.json";
+import Tags from "./data/tags.json";
+import Data from "./data/data.json";
+//------------Aux------------------------------
 import Aux from "./hoc/Aux";
 
 export default class App extends Component {
@@ -15,28 +20,8 @@ export default class App extends Component {
       data: Data,
       dataMenu: Menu,
       dataTags: Tags,
-      filteredData: [],
     };
   }
-
-  // filteredDataHandler = () => {
-  //   let filteredArr = [];
-  //   const newArr = this.state.data.map((item) =>
-  //     item.projectName ? console.log(item) : null
-  //   );
-  //   filteredArr.push(newArr);
-  //   this.setState({
-  //     filteredData: filteredArr,
-  //   });
-  // };
-
-  // imageHandler = () => {
-  //   let imageSel = [];
-  //   const imageCards = this.state.data.map((item) => {
-  //     return { item };
-  //   });
-  //   imageSel.push(imageCards);
-  // };
 
   render() {
     console.log(this.state.data, "filtered", this.state.filteredData);
@@ -44,19 +29,30 @@ export default class App extends Component {
 
     return (
       <Aux>
-        <NavigationElements data={this.state.dataMenu} />
-        <div className="summary">
+        {/* ---------other components--------------- */}
+        <Router>
+          <NavigationElements data={this.state.dataMenu} />
+          <Switch>
+            {/* <div className="summary">
           <Summary />
         </div>
+       
+        
         <div className="tags">
           <TagsElements data={this.state.dataTags} />
         </div>
+        
+        
         <MainGridElements
           className="main-grid-elements_cards"
           data={this.state.data}
-          // filteredData={this.filteredDataHandler}
-          // cardUp={this.imageHandler}
-        />
+        /> */}
+            {/* <Route path="/" exact component={} /> */}
+            <Route path="/About" component={Summary} />
+            <Route path="/Projects" component={TagsElements} />
+            <Route path="/Tags" component={MainGridElements} />
+          </Switch>
+        </Router>
       </Aux>
     );
   }
