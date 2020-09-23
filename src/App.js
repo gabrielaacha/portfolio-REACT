@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 //------------components------------------------------
+import HomeElements from "./components/Home/HomeElement";
 import MainGridElements from "./components/Main/MainGridElements";
 import Summary from "./components/Summary/Summary";
 import TagsElements from "./components/Tags/TagsElements";
@@ -24,33 +25,28 @@ export default class App extends Component {
   }
 
   render() {
+    const [data, dataMenu, dataTags] = this.state;
+
     console.log(this.state.data, "filtered", this.state.filteredData);
     console.log(this.state.dataMenu);
 
     return (
       <Aux>
-        {/* ---------other components--------------- */}
         <Router>
-          <NavigationElements data={this.state.dataMenu} />
+          <NavigationElements data={dataMenu} />
+          {/* ---------other components--------------- */}
           <Switch>
-            {/* <div className="summary">
-          <Summary />
-        </div>
-       
-        
-        <div className="tags">
-          <TagsElements data={this.state.dataTags} />
-        </div>
-        
-        
-        <MainGridElements
-          className="main-grid-elements_cards"
-          data={this.state.data}
-        /> */}
-            {/* <Route path="/" exact component={} /> */}
+            <Route path="/" exact component={HomeElements} />
             <Route path="/About" component={Summary} />
-            <Route path="/Projects" component={TagsElements} />
-            <Route path="/Tags" component={MainGridElements} />
+            <Route path="/Projects">
+              <MainGridElements
+                className="main-grid-elements_cards"
+                data={data}
+              />
+            </Route>
+            <Route path="/Tags">
+              <TagsElements data={dataTags} />
+            </Route>
           </Switch>
         </Router>
       </Aux>
