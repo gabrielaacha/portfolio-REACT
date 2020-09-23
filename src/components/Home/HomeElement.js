@@ -1,12 +1,9 @@
 import React from "react";
-import Aux from "../../hoc/Aux";
+// import Aux from "../../hoc/Aux";
 
-const mainGridElements = (props) => {
-  const items = props.data.map((item, i) => {
-    return <MainGridElementCard key={i} info={item} />;
-  });
+const homeElements = (props) => <div>HOME</div>;
+//   const items = props.data.map((item, i) => {
+//     return <MainGridElementCard key={i} info={item} />;
+//   });
 
-  return <Aux></Aux>;
-};
-
-export default mainGridElements;
+export default homeElements;

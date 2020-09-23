@@ -25,15 +25,14 @@ export default class App extends Component {
   }
 
   render() {
-    const [data, dataMenu, dataTags] = this.state;
-
-    console.log(this.state.data, "filtered", this.state.filteredData);
-    console.log(this.state.dataMenu);
+    // const [data, dataMenu, dataTags] = this.state;
+    // console.log(this.state.data, "filtered", this.state.filteredData);
+    // console.log(this.state.dataMenu);
 
     return (
       <Aux>
         <Router>
-          <NavigationElements data={dataMenu} />
+          <NavigationElements data={this.state.dataMenu} />
           {/* ---------other components--------------- */}
           <Switch>
             <Route path="/" exact component={HomeElements} />
@@ -41,11 +40,12 @@ export default class App extends Component {
             <Route path="/Projects">
               <MainGridElements
                 className="main-grid-elements_cards"
-                data={data}
+                data={this.state.data}
+                dataTags={this.state.dataTags}
               />
             </Route>
             <Route path="/Tags">
-              <TagsElements data={dataTags} />
+              <TagsElements data={this.state.dataTags} />
             </Route>
           </Switch>
         </Router>
