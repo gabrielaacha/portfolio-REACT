@@ -5,7 +5,7 @@
     "icon": "",
     "image": "./img/app-image-0.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
+    "tags": ["javascript", "css", "html"]
   },
 
   {
@@ -14,7 +14,7 @@
     "icon": "",
     "image": "./img/app-image-1.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
+    "tags": ["bootstrap", "javascript"]
   },
 
   {
@@ -23,7 +23,7 @@
     "icon": "",
     "image": "./img/app-image-2.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
+    "tags": ["tag1", "tag2", "tag3", "tag4", "tag5"]
   },
 
   {
@@ -32,7 +32,7 @@
     "icon": "",
     "image": "./img/app-image-3.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
+    "tags": ["mongodb", "javascript", "express"]
   },
 
   {
@@ -41,7 +41,7 @@
     "icon": "",
     "image": "./img/app-image-4.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
+    "tags": ["javascript", "html", "css"]
   },
 
   {
@@ -50,6 +50,6 @@
     "icon": "",
     "image": "./img/app-image-5.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": "#tag1, #tag2, #tag3, #tag4, #tag5"
+    "tags": ["javascript", "react", "sass", "css"]
   }
 ]

@@ -1,5 +1,5 @@
 .nav-elements__all {
-  // position: fixed;
+  position: fixed;
   margin-top: 0;
   display: flex;
   justify-content: space-between;
@@ -38,7 +38,7 @@
     }
   }
   &__title {
-    border: blue 3px solid;
+    // border: blue 3px solid;
     display: flex;
     align-items: center;
   }
@@ -113,6 +113,8 @@
 @media (min-width: 600px) {
   .nav-elements__all {
     display: flex;
+    // position: relative;
+    z-index: 3;
     // align-items: center;
     // text-align: center;
     // background-color: indianred;

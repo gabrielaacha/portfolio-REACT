@@ -6,7 +6,7 @@
 
   {
     "id": 1,
-    "title": "JAVA SCRIPT"
+    "title": "JAVASCRIPT"
   },
 
   {
@@ -16,21 +16,26 @@
 
   {
     "id": 3,
-    "title": "CSS+SASS"
+    "title": "CSS"
   },
 
   {
     "id": 4,
-    "title": "EXPRESS"
+    "title": "SASS"
   },
 
   {
     "id": 5,
-    "title": "MONGODB"
+    "title": "EXPRESS"
   },
 
   {
     "id": 6,
+    "title": "MONGODB"
+  },
+
+  {
+    "id": 7,
     "title": "BOOTSTRAP"
   }
 ]
