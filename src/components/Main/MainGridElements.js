@@ -10,27 +10,45 @@ const mainGridElements = (props) => {
 
   const itemsTags = props.dataTags.map((itemTags1, i) => {
     console.log(itemTags1.title);
-    return itemTags1.title;
+    return itemTags1.title.toLowerCase();
   });
 
   console.log(props.dataTags);
   console.log(props.data);
 
   const itemsTags2 = props.data.map((itemTags2, i) => {
-    itemTags2.tags.map((item, i) => {
-      console.log(item);
-      return item;
-    });
-    return itemTags2;
+    // itemTags2.tags.map((item, i) => {
+    //   console.log(item);
+    //   return item;
+    // });
+    return itemTags2.tags;
   });
 
+  // const tagsItem3 = itemsTags2.map((item, i) => {
+
+  //   console.log(item);
+  //   return itemsTags2;
+  // });
+
+  const tagsItem3 = itemsTags2[0].concat(...itemsTags2);
+
   const items = props.data.map((item, i) => {
-    if (itemsTags === itemsTags2) {
+    const itemTagsTags = itemsTags2[i];
+    const itemTagsTags2 = itemTagsTags[i];
+    console.log(itemsTags2[i]);
+    console.log(itemTagsTags2);
+    console.log(itemsTags[i]);
+    if (itemsTags[i].includes(itemsTags2[i])) {
       return <MainGridElementCard key={i} info={item} />;
+    } else {
+      // console.log("epic fail");
     }
   });
+
   console.log(itemsTags);
   console.log(itemsTags2);
+  console.log(tagsItem3);
+  console.log(items);
 
   return (
     <Aux>
