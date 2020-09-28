@@ -4,51 +4,74 @@ import TagsElement from "./TagsElement/TagsElement";
 import Aux from "../../hoc/Aux";
 
 const mainGridElements = (props) => {
-  const menu = props.dataTags.map((item, i) => {
-    return <TagsElement key={i} info={item} />;
+  //------------TAGS-------------------------------------------
+  // all individual menu items from Tags.json
+  // ONLY TAGS
+  const tagsMenu = props.dataTags.map((item, i) => {
+    return item.title.toLowerCase();
   });
 
-  const itemsTags = props.dataTags.map((itemTags1, i) => {
-    console.log(itemTags1.title);
-    return itemTags1.title.toLowerCase();
+  // arrays of the tags from cards, data from Data.json
+  // ARRAYS WITH ONLY TAGS
+  const tagsCard = props.data.map((item, i) => {
+    return item.tags;
   });
 
-  console.log(props.dataTags);
-  console.log(props.data);
+  // individual elements of the card tags' arrays all together
+  // ALL ARRAY TAGS INDIVIDUAL
+  const singleTagsCard = tagsCard[0].concat(...tagsCard);
 
-  const itemsTags2 = props.data.map((itemTags2, i) => {
-    // itemTags2.tags.map((item, i) => {
-    //   console.log(item);
-    //   return item;
-    // });
-    return itemTags2.tags;
+  //------------CARDS-------------------------------------------
+  // all cards' info
+  const allCards = props.data.map((item, i) => {
+    return <MainGridElementCard key={i} info={item} />;
   });
 
-  // const tagsItem3 = itemsTags2.map((item, i) => {
-
-  //   console.log(item);
-  //   return itemsTags2;
-  // });
-
-  const tagsItem3 = itemsTags2[0].concat(...itemsTags2);
-
-  const items = props.data.map((item, i) => {
-    const itemTagsTags = itemsTags2[i];
-    const itemTagsTags2 = itemTagsTags[i];
-    console.log(itemsTags2[i]);
-    console.log(itemTagsTags2);
-    console.log(itemsTags[i]);
-    if (itemsTags[i].includes(itemsTags2[i])) {
-      return <MainGridElementCard key={i} info={item} />;
-    } else {
-      // console.log("epic fail");
+  // show cards only including certain tags
+  const selectedCards = allCards.map((item, i) => {
+    console.log(item);
+    // loop array with tags
+    const x = item.props.info.tags;
+    console.log(x);
+    // menu items array
+    const y = tagsMenu.filter((item, i) => {
+      return item;
+    });
+    console.log(y);
+    console.log(y[i]);
+    //
+    if (x.includes(y[i])) {
+      return item;
     }
   });
+  console.log(selectedCards);
 
-  console.log(itemsTags);
-  console.log(itemsTags2);
-  console.log(tagsItem3);
-  console.log(items);
+  //------------MENU-------------------------------------------
+  // all items and info from Tags.json for menu barre
+  // MENU ON THE LEFT
+  const menu = props.dataTags.map((item, i) => {
+    return (
+      <div className="tags__single" onClick={selectedCards}>
+        <TagsElement key={i} info={item} />
+      </div>
+    );
+  });
+
+  //------------LOGS-------------------------------------------
+  // menu items data
+  console.log(props.dataTags);
+  // card items data
+  console.log(props.data);
+  // all menu items
+  console.log(menu);
+  // individual menu items
+  console.log(tagsMenu);
+  // arrays with tags of the cards
+  console.log(tagsCard);
+  //
+  console.log(singleTagsCard);
+  // grid with all the card items
+  console.log(allCards);
 
   return (
     <Aux>
@@ -56,7 +79,7 @@ const mainGridElements = (props) => {
         <div className="tags__all">{menu}</div>
         <div className="main-grid__all">
           <div className="main-grid__row">
-            <div className="main-grid__col-1-of-3">{items}</div>
+            <div className="main-grid__col-1-of-3">{selectedCards}</div>
           </div>
         </div>
       </div>
