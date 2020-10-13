@@ -22,13 +22,10 @@ export default class App extends Component {
       dataMenu: Menu,
       dataTags: Tags,
     };
+    console.log(React.Component);
   }
 
   render() {
-    // const [data, dataMenu, dataTags] = this.state;
-    // console.log(this.state.data, "filtered", this.state.filteredData);
-    // console.log(this.state.dataMenu);
-
     return (
       <Aux>
         <Router>

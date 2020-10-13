@@ -1,9 +1,22 @@
-.nav-elements__all {
-  position: fixed;
-  margin-top: 0;
+.nav-elements {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  &__all {
+    // position: fixed;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    border: rgb(21, 255, 0) 1px solid;
+  }
+  &__all {
+    position: fixed;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .nav-element {
@@ -27,7 +40,7 @@
       justify-content: center;
       text-decoration: none;
       list-style: none;
-      // border: 2px black solid;
+      border: 2px black solid;
       // border-radius: 20px;
       width: 10rem;
       &:hover {
@@ -182,5 +195,16 @@
   .nav-element__title {
     float: left;
     border: blue 3px solid;
+  }
+
+  .nav-elements {
+    &__all {
+      // position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0.5rem 2rem;
+      border: rgb(17, 0, 255) 1px solid;
+    }
   }
 }
