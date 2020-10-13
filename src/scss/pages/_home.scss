@@ -13,9 +13,14 @@ body {
   // border-color: black 5px solid;
   font-size: 2rem;
   text-align: left;
+
+  &__icons {
+  }
 }
 
-.hello {
+.home-elements {
+  display: flex;
+  flex-direction: column;
 }
 
 .summary {
