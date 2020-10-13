@@ -26,6 +26,8 @@
       width: 40rem;
       list-style-type: none;
       list-style: none;
+      text-decoration: none;
+
       overflow: hidden;
       display: flex;
       flex-direction: row;
@@ -38,14 +40,16 @@
       margin-right: 0.5rem;
       display: flex;
       justify-content: center;
-      text-decoration: none;
-      list-style: none;
+      // list-style: none;
       border: 2px black solid;
-      // border-radius: 20px;
-      width: 10rem;
+      border-radius: 20px;
+      width: 8rem;
+      text-decoration: none;
+      list-style-type: none;
+
       &:hover {
         box-shadow: 1px 6px 6px 1px rgba(0, 0, 0, 0.5);
-        transform: translateY(7px);
+        transform: translateX(3px);
         cursor: pointer;
       }
     }

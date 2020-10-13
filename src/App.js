@@ -3,8 +3,9 @@ import React, { Component } from "react";
 import HomeElements from "./components/Home/HomeElement";
 import MainGridElements from "./components/Main/MainGridElements";
 import Summary from "./components/Summary/Summary";
-import TagsElements from "./components/Tags/TagsElements";
+// import TagsElements from "./components/Tags/TagsElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
+import ContactElement from "./components/Contact/ContactElement";
 //---------------routing---------------------------------
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 //------------data------------------------------
@@ -41,6 +42,8 @@ export default class App extends Component {
                 dataTags={this.state.dataTags}
               />
             </Route>
+            <Route path="/Contact" component={ContactElement} />
+
             {/* <Route path="/Tags">
               <TagsElements data={this.state.dataTags} />
             </Route> */}
