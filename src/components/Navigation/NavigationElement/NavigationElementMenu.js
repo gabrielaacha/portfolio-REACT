@@ -3,11 +3,6 @@ import React from "react"; // import NavigationElementMenuItem from "./Navigatio
 import Aux from "../../../hoc/Aux";
 //---------------routing---------------------------------
 import { Link } from "react-router-dom";
-//---------------pages---------------------------------
-// import About from "../../Pages/About";
-// import Contact from "../../Pages/Contact";
-// import Projects from "../../Pages/Projects";
-// import Categories from "../../Pages/Categories";
 //---------------components---------------------------------
 // import Summary from "../../Summary/Summary";
 // import MainGridElements from "../../Main/MainGridElements";
@@ -36,9 +31,9 @@ const NavigationElementMenu = (props) => {
             <li className="nav-element__menu__single-items">
               <Link to="/Projects">Projects</Link>
             </li>
-            <li className="nav-element__menu__single-items">
+            {/* <li className="nav-element__menu__single-items">
               <Link to="/Tags">Tags</Link>
-            </li>
+            </li> */}
             <li className="nav-element__menu__single-items">
               <Link to="/Contact">Contact</Link>
             </li>

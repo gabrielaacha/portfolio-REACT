@@ -41,9 +41,9 @@ export default class App extends Component {
                 dataTags={this.state.dataTags}
               />
             </Route>
-            <Route path="/Tags">
+            {/* <Route path="/Tags">
               <TagsElements data={this.state.dataTags} />
-            </Route>
+            </Route> */}
           </Switch>
         </Router>
       </Aux>
