@@ -18,6 +18,13 @@ body {
   }
 }
 
+.single__icon {
+  margin: 0 2rem;
+  // width: 10px;
+  height: 100px;
+  font-size: 4rem;
+}
+
 .home-elements {
   display: flex;
   flex-direction: column;

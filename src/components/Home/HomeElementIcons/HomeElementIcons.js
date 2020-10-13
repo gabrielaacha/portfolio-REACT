@@ -10,9 +10,9 @@ import {
 const homeElementIcons = (props) => (
   <Aux>
     <div className="container-main__icons">
-      <FontAwesomeIcon className="github__icon" icon={faGithub} />
-      <FontAwesomeIcon className="github__icon" icon={faLinkedin} />
-      <FontAwesomeIcon className="github__icon" icon={faXingSquare} />
+      <FontAwesomeIcon className="single__icon" icon={faGithub} />
+      <FontAwesomeIcon className="single__icon" icon={faLinkedin} />
+      <FontAwesomeIcon className="single__icon" icon={faXingSquare} />
     </div>
   </Aux>
 );
