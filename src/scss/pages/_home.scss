@@ -25,7 +25,8 @@ body {
   font-size: 4rem;
 }
 
-.home-elements {
+.home-elements,
+.contact-elements {
   display: flex;
   flex-direction: column;
 }

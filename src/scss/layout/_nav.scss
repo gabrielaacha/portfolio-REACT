@@ -2,6 +2,8 @@
   display: flex;
   justify-content: center;
   margin-top: 0;
+  text-decoration: none;
+
   &__all {
     // position: fixed;
     width: 90vw;
@@ -27,7 +29,6 @@
       list-style-type: none;
       list-style: none;
       text-decoration: none;
-
       overflow: hidden;
       display: flex;
       flex-direction: row;
@@ -40,12 +41,12 @@
       margin-right: 0.5rem;
       display: flex;
       justify-content: center;
-      // list-style: none;
       border: 2px black solid;
       border-radius: 20px;
       width: 8rem;
       text-decoration: none;
       list-style-type: none;
+      list-style: none;
 
       &:hover {
         box-shadow: 1px 6px 6px 1px rgba(0, 0, 0, 0.5);
