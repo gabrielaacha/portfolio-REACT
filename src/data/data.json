@@ -1,20 +1,20 @@
 [
   {
     "id": 0,
-    "projectName": "project0",
+    "projectName": "fruit shop with react and react routing",
     "icon": "",
-    "image": "./img/app-image-0.jpg",
-    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": ["javascript", "css", "html"]
+    "image": "./img/react-shop.png",
+    "shortDescription": "this project consists of a shop that can be navigated in different pages thanks to react routing and a navigation",
+    "tags": ["javascript", "sass", "html", "react", "react-routing"]
   },
 
   {
     "id": 1,
-    "projectName": "project1",
+    "projectName": "zamagana synth with react",
     "icon": "",
-    "image": "./img/app-image-1.jpg",
+    "image": "./img/zamagana-closeup",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
-    "tags": ["bootstrap", "javascript"]
+    "tags": ["javascript", "sass", "html", "react", "tone.js"]
   },
 
   {
