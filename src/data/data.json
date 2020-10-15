@@ -51,5 +51,23 @@
     "image": "./img/app-image-5.jpg",
     "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
     "tags": ["javascript", "react", "sass", "css"]
+  },
+
+  {
+    "id": 6,
+    "projectName": "project6",
+    "icon": "",
+    "image": "./img/app-image-6.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": ["javascript", "react", "sass", "css"]
+  },
+
+  {
+    "id": 7,
+    "projectName": "project7",
+    "icon": "",
+    "image": "./img/app-image-7.jpg",
+    "shortDescription": "this project consists of this project consists of this project consists of this project consists of this project consists of ",
+    "tags": ["javascript", "react", "sass", "css"]
   }
 ]
