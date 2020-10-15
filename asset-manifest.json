@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gabrielaacha/portfolio-REACT/static/css/main.85c34215.chunk.css",
-    "main.js": "/gabrielaacha/portfolio-REACT/static/js/main.3306f256.chunk.js",
-    "main.js.map": "/gabrielaacha/portfolio-REACT/static/js/main.3306f256.chunk.js.map",
+    "main.css": "/gabrielaacha/portfolio-REACT/static/css/main.b6909e6a.chunk.css",
+    "main.js": "/gabrielaacha/portfolio-REACT/static/js/main.4cfc0cdb.chunk.js",
+    "main.js.map": "/gabrielaacha/portfolio-REACT/static/js/main.4cfc0cdb.chunk.js.map",
     "runtime-main.js": "/gabrielaacha/portfolio-REACT/static/js/runtime-main.5ea15959.js",
     "runtime-main.js.map": "/gabrielaacha/portfolio-REACT/static/js/runtime-main.5ea15959.js.map",
     "static/js/2.e51532e7.chunk.js": "/gabrielaacha/portfolio-REACT/static/js/2.e51532e7.chunk.js",
     "static/js/2.e51532e7.chunk.js.map": "/gabrielaacha/portfolio-REACT/static/js/2.e51532e7.chunk.js.map",
     "index.html": "/gabrielaacha/portfolio-REACT/index.html",
-    "precache-manifest.e5f5e8e2af30863bfeefe24e2cdffe12.js": "/gabrielaacha/portfolio-REACT/precache-manifest.e5f5e8e2af30863bfeefe24e2cdffe12.js",
+    "precache-manifest.34dcaa87c9d4ec55f53c8af116dcbe12.js": "/gabrielaacha/portfolio-REACT/precache-manifest.34dcaa87c9d4ec55f53c8af116dcbe12.js",
     "service-worker.js": "/gabrielaacha/portfolio-REACT/service-worker.js",
-    "static/css/main.85c34215.chunk.css.map": "/gabrielaacha/portfolio-REACT/static/css/main.85c34215.chunk.css.map",
+    "static/css/main.b6909e6a.chunk.css.map": "/gabrielaacha/portfolio-REACT/static/css/main.b6909e6a.chunk.css.map",
     "static/js/2.e51532e7.chunk.js.LICENSE.txt": "/gabrielaacha/portfolio-REACT/static/js/2.e51532e7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ea15959.js",
     "static/js/2.e51532e7.chunk.js",
-    "static/css/main.85c34215.chunk.css",
-    "static/js/main.3306f256.chunk.js"
+    "static/css/main.b6909e6a.chunk.css",
+    "static/js/main.4cfc0cdb.chunk.js"
   ]
 }

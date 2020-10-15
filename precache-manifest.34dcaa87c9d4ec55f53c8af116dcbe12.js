@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c3e4ad0e1ed71775a4d8a538e032cc9",
+    "revision": "c8a4071465abcd722255f56dba4b4e0f",
     "url": "/gabrielaacha/portfolio-REACT/index.html"
   },
   {
-    "revision": "5bbb42ee20bc89c75bc8",
-    "url": "/gabrielaacha/portfolio-REACT/static/css/main.85c34215.chunk.css"
+    "revision": "ed35fe65159c89ae65eb",
+    "url": "/gabrielaacha/portfolio-REACT/static/css/main.b6909e6a.chunk.css"
   },
   {
     "revision": "9fea1d2140422536c0fb",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gabrielaacha/portfolio-REACT/static/js/2.e51532e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5bbb42ee20bc89c75bc8",
-    "url": "/gabrielaacha/portfolio-REACT/static/js/main.3306f256.chunk.js"
+    "revision": "ed35fe65159c89ae65eb",
+    "url": "/gabrielaacha/portfolio-REACT/static/js/main.4cfc0cdb.chunk.js"
   },
   {
     "revision": "39759385eb9060633228",
