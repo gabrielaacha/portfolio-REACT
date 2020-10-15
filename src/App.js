@@ -2,7 +2,7 @@ import React, { Component } from "react";
 //------------components------------------------------
 import HomeElements from "./components/Home/HomeElement";
 import MainGridElements from "./components/Main/MainGridElements";
-import Summary from "./components/Summary/Summary";
+import SummaryElement from "./components/Summary/SummaryElement";
 // import TagsElements from "./components/Tags/TagsElements";
 import NavigationElements from "./components/Navigation/NavigationElements";
 import ContactElement from "./components/Contact/ContactElement";
@@ -34,7 +34,7 @@ export default class App extends Component {
           {/* ---------other components--------------- */}
           <Switch>
             <Route path="/" exact component={HomeElements} />
-            <Route path="/About" component={Summary} />
+            <Route path="/About" component={SummaryElement} />
             <Route path="/Projects">
               <MainGridElements
                 className="main-grid-elements_cards"

@@ -79,7 +79,7 @@ const mainGridElements = (props) => {
         <div className="tags__all">{menu}</div>
         <div className="main-grid__all">
           <div className="main-grid__row">
-            <div className="main-grid__col-1-of-3">{selectedCards}</div>
+            <div className="main-grid__col-1-of-3">{allCards}</div>
           </div>
         </div>
       </div>
