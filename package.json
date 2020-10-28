@@ -15,7 +15,7 @@
   },
   "author": "Gabriela",
   "license": "ISC",
-  "homepage": "https://github.com/gabrielaacha/portfolio-REACT",
+  "homepage": "",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-brands-svg-icons": "^5.15.1",
