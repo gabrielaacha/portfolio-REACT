@@ -1,13 +1,14 @@
 .main-grid {
   display: flex;
+  flex-direction: column;
   margin-top: 8rem;
 
   &__all {
     border: grey 1px solid;
-    width: 80vw;
+    // width: 80vw;
     display: flex;
     flex-direction: column;
-    margin-left: 20rem;
+    // margin-left: 20rem;
   }
 
   &__row {
